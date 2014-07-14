@@ -19,6 +19,14 @@
 		1443228D19734ECB006C2E07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1443227519734ECB006C2E07 /* UIKit.framework */; };
 		1443229519734ECB006C2E07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1443229319734ECB006C2E07 /* InfoPlist.strings */; };
 		1443229719734ECB006C2E07 /* group_projectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1443229619734ECB006C2E07 /* group_projectTests.m */; };
+		144322A319734F17006C2E07 /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144322A119734F17006C2E07 /* ChatListViewController.m */; };
+		144322A419734F17006C2E07 /* ChatListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144322A219734F17006C2E07 /* ChatListViewController.xib */; };
+		144322A819734F2A006C2E07 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144322A619734F2A006C2E07 /* ChatViewController.m */; };
+		144322A919734F2A006C2E07 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144322A719734F2A006C2E07 /* ChatViewController.xib */; };
+		144322AD197356F0006C2E07 /* dummyDiscoveryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144322AB197356F0006C2E07 /* dummyDiscoveryViewController.m */; };
+		144322AE197356F0006C2E07 /* dummyDiscoveryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144322AC197356F0006C2E07 /* dummyDiscoveryViewController.xib */; };
+		144322B2197356FE006C2E07 /* dummyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144322B0197356FE006C2E07 /* dummyProfileViewController.m */; };
+		144322B3197356FE006C2E07 /* dummyProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 144322B1197356FE006C2E07 /* dummyProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,18 @@
 		1443229219734ECB006C2E07 /* group projectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "group projectTests-Info.plist"; sourceTree = "<group>"; };
 		1443229419734ECB006C2E07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1443229619734ECB006C2E07 /* group_projectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = group_projectTests.m; sourceTree = "<group>"; };
+		144322A019734F17006C2E07 /* ChatListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatListViewController.h; path = ../ChatListViewController.h; sourceTree = "<group>"; };
+		144322A119734F17006C2E07 /* ChatListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatListViewController.m; path = ../ChatListViewController.m; sourceTree = "<group>"; };
+		144322A219734F17006C2E07 /* ChatListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChatListViewController.xib; path = ../ChatListViewController.xib; sourceTree = "<group>"; };
+		144322A519734F2A006C2E07 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = ../ChatViewController.h; sourceTree = "<group>"; };
+		144322A619734F2A006C2E07 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = ../ChatViewController.m; sourceTree = "<group>"; };
+		144322A719734F2A006C2E07 /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChatViewController.xib; path = ../ChatViewController.xib; sourceTree = "<group>"; };
+		144322AA197356F0006C2E07 /* dummyDiscoveryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummyDiscoveryViewController.h; sourceTree = "<group>"; };
+		144322AB197356F0006C2E07 /* dummyDiscoveryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummyDiscoveryViewController.m; sourceTree = "<group>"; };
+		144322AC197356F0006C2E07 /* dummyDiscoveryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dummyDiscoveryViewController.xib; sourceTree = "<group>"; };
+		144322AF197356FE006C2E07 /* dummyProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dummyProfileViewController.h; sourceTree = "<group>"; };
+		144322B0197356FE006C2E07 /* dummyProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummyProfileViewController.m; sourceTree = "<group>"; };
+		144322B1197356FE006C2E07 /* dummyProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dummyProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +127,18 @@
 		1443227719734ECB006C2E07 /* group project */ = {
 			isa = PBXGroup;
 			children = (
+				144322A019734F17006C2E07 /* ChatListViewController.h */,
+				144322A119734F17006C2E07 /* ChatListViewController.m */,
+				144322A219734F17006C2E07 /* ChatListViewController.xib */,
+				144322A519734F2A006C2E07 /* ChatViewController.h */,
+				144322A619734F2A006C2E07 /* ChatViewController.m */,
+				144322A719734F2A006C2E07 /* ChatViewController.xib */,
+				144322AA197356F0006C2E07 /* dummyDiscoveryViewController.h */,
+				144322AB197356F0006C2E07 /* dummyDiscoveryViewController.m */,
+				144322AC197356F0006C2E07 /* dummyDiscoveryViewController.xib */,
+				144322AF197356FE006C2E07 /* dummyProfileViewController.h */,
+				144322B0197356FE006C2E07 /* dummyProfileViewController.m */,
+				144322B1197356FE006C2E07 /* dummyProfileViewController.xib */,
 				1443228019734ECB006C2E07 /* AppDelegate.h */,
 				1443228119734ECB006C2E07 /* AppDelegate.m */,
 				1443228319734ECB006C2E07 /* Images.xcassets */,
@@ -219,8 +251,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144322AE197356F0006C2E07 /* dummyDiscoveryViewController.xib in Resources */,
+				144322B3197356FE006C2E07 /* dummyProfileViewController.xib in Resources */,
 				1443227C19734ECB006C2E07 /* InfoPlist.strings in Resources */,
 				1443228419734ECB006C2E07 /* Images.xcassets in Resources */,
+				144322A919734F2A006C2E07 /* ChatViewController.xib in Resources */,
+				144322A419734F17006C2E07 /* ChatListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				144322AD197356F0006C2E07 /* dummyDiscoveryViewController.m in Sources */,
+				144322A319734F17006C2E07 /* ChatListViewController.m in Sources */,
 				1443228219734ECB006C2E07 /* AppDelegate.m in Sources */,
+				144322A819734F2A006C2E07 /* ChatViewController.m in Sources */,
 				1443227E19734ECB006C2E07 /* main.m in Sources */,
+				144322B2197356FE006C2E07 /* dummyProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +402,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "group project/group project-Prefix.pch";
 				INFOPLIST_FILE = "group project/group project-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +416,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "group project/group project-Prefix.pch";
 				INFOPLIST_FILE = "group project/group project-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
